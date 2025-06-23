@@ -41,7 +41,7 @@ public class Mecanico extends Funcionario implements Observer{
 
     @Override
     public void atualizar(String mensagem) {
-        System.out.println("--- Alerta para o Mecânico " + getNome() + " ---");
+        System.out.println("--- Alerta para o Mecanico " + getNome() + " ---");
         System.out.println(">> Notificação de Serviço: " + mensagem);
         System.out.println("----------------------------------------------\n");
     }
